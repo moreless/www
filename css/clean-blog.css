@@ -1,6 +1,6 @@
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
+  font-size: 16px;
   color: #404040;
 }
 p {
@@ -16,8 +16,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
+  font-weight: 500;
 }
 a {
   color: #404040;
@@ -47,14 +47,14 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -164,7 +164,7 @@ hr.small {
   font-size: 20px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -183,13 +183,13 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -321,7 +321,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -344,7 +344,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "微软雅黑","Arial","Helvetica","sans-serif";
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -396,24 +396,8 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
-/***********default settings**********/
-body {font-family: "微软雅黑","Arial","Helvetica","sans-serif";font-size:16px;}
-a {color:#4A75B5;text-decoration:none;outline:none;}
-a:hover {text-decoration:underline}
-a.external {padding-right:13px;background:url('/images/icons.gif') no-repeat right 1px;}
-a.external:hover {background-position:right -15px;}
-.entry-title,.entry-title a {font-size:30px;font-weight:bold;margin-bottom:6px;color:#000;text-align:center;word-wrap: break-word;}
-.entry-title a:hover {text-decoration:none;}
-.entry-date {text-align:center;color:#999;margin-bottom:60px;font-size:14px;}
-
 h2 {font-size:22px;font-weight:bold;margin-bottom:25px;}
 h3 {font-size:18px;font-weight:bold;margin-bottom:25px;}
 h4,h5,h6 {font-weight:bold;margin-bottom:15px;}
-p {margin-bottom:40px;line-height:1.8em;}
-code {background:#eee;border:1px solid #ccc;padding:0 5px;font-family:"Courier";line-height:14px;font-size:14px;word-wrap:break-word; }
-pre {background-color:#000;padding:15px;overflow:auto;margin-bottom:40px;font-size:14px;border: 1px solid #eee;-webkit-border-radius: 4px 4px 4px 4px;-moz-border-radius: 4px 4px 4px 4px;border-radius: 4px 4px 4px 4px;color:#b9bdb6;margin-top:-20px; }
-h4+pre, h3+pre { margin-top:20px; }
-pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
-pre ol{margin-left:25px;list-style-type:decimal;}
-
+p {margin-bottom:40px;line-height:1.5em;}
 
