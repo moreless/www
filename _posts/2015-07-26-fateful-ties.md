@@ -27,4 +27,3 @@ header-img: "img/fateful-ties.jpg"
 ##时间和地址
 7月26号，周日晚上6:00pm <br>
 @635 High Street, Palo Alto
-
