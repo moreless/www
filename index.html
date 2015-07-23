@@ -36,19 +36,12 @@ description: "欢迎来到谷雨书苑"
                 </span>
                 <h4 class="service-heading">分享的书目</h4>
                 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-                <div id="container1">你妹</div>
+                <div id="container1">书单</div>
                 <script >
                 $.get('/www/sheet1.csv', function(data) {
 
 // start the table
 var html = '<table class="table table-striped">';
-html += "<thead>"+
-      "<tr>" +
-        "<th>日期</th>"+
-        "<th>主讲</th>"+
-        "<th>题目</th>"+
-      "</tr>"+"<br>"+
-    "</thead>"
 
 // split into lines
 var rows = data.split("\n");
