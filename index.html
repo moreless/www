@@ -45,9 +45,9 @@ var html = '<table class="table table-striped">';
 
 html +=   "<thead>"+
       "<tr>" +
-        "<th>Firstname</th>"+
-        "<th>Lastname</th>"+
-        "<th>Email</th>"+
+        "<th>日期</th>"+
+        "<th>主讲</th>"+
+        "<th>题目</th>"+
       "</tr>"+"<br>"+
     "</thead>"+
     +"<tbody>"
@@ -63,9 +63,9 @@ html += "<tr>";
 // split line into columns
 var columns = ourrow.split(",");
 
-html += "<td>" + columns[0] + "</td>";
 html += "<td>" + columns[1] + "</td>";
 html += "<td>" + columns[2] + "</td>";
+html += "<td>" + columns[3] + "</td>";
 
 // close row
 html += "</tr>";
