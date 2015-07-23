@@ -48,7 +48,9 @@ var rows = data.split("\n");
 
 // parse lines
 rows.forEach( function getvalues(ourrow) {
-
+if (rows == 0) {
+continue:
+}
 // start a table row
 html += "<tr>";
 
