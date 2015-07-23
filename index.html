@@ -41,14 +41,22 @@ description: "欢迎来到谷雨书苑"
                 $.get('/www/sheet1.csv', function(data) {
 
 // start the table
-var html = '<table">';
+var html = '<table class="table table-striped"">';
+
+htm +=   "<thead>"+
+      "<tr>" +
+        "<th>Firstname</th>"+
+        "<th>Lastname</th>"+
+        "<th>Email</th>"+
+      "</tr>"+"<br>"+
+    "</thead>"+
+    +"<tbody>"
 
 // split into lines
 var rows = data.split("\n");
 
 // parse lines
 rows.forEach( function getvalues(ourrow) {
-print row, rows
 // start a table row
 html += "<tr>";
 
