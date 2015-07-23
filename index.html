@@ -36,9 +36,9 @@ description: "欢迎来到谷雨书苑"
                 </span>
                 <h4 class="service-heading">分享的书目</h4>
                 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-                <div id="container"></div>
+                <div id="container1"></div>
                 <script >
-                $.get('sheet1.csv', function(data) {
+                $.get('/www/sheet1.csv', function(data) {
 
 // start the table
 var html = '<table">';
@@ -66,7 +66,7 @@ html += "</tr>";
 html += "</table>";
 
 // insert into div
-$('#container').append(html);
+$('#container1').append(html);
 
 });
 </script>
